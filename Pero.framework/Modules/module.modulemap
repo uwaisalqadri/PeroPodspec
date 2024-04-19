@@ -1,0 +1,11 @@
+framework module Pero {
+  umbrella header "Pero.h"
+  export *
+
+  module * { export * }
+}
+
+module Pero.Swift {
+  header "Pero-Swift.h"
+  requires objc
+}
